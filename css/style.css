@@ -7,18 +7,30 @@
 header{
     height: 80px;
     padding: 10px 0;
-    background-color: cornflowerblue;
+    background-color: #ABCCF7;
 }
 .container{
     max-width: 1100px;
     margin:0 auto;
     display: flex;
+    height: 60px;
 }
 
 .left-col, .central-col, .right-col{
     height: 100%;
+    border: 1px dashed black;
+    background-color: #cca23f;
 }
 
 .JC{
     justify-content: space-between;
+}
+
+.width-left-right{
+    width: 30%;
+}
+
+.width-central{
+    width: 60%;
+    text-align: center;
 }

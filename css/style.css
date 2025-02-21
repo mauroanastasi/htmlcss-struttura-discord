@@ -4,7 +4,21 @@
     box-sizing: border-box;
 }
 
+header{
+    height: 80px;
+    padding: 10px 0;
+    background-color: cornflowerblue;
+}
 .container{
     max-width: 1100px;
     margin:0 auto;
+    display: flex;
+}
+
+.left-col, .central-col, .right-col{
+    height: 100%;
+}
+
+.JC{
+    justify-content: space-between;
 }

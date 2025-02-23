@@ -95,10 +95,30 @@ header{
 
 }
 
-/* utility */
+.manycol{
+    ;
+    height: 100%;
+}
+
+.col40{
+    width: 40%;
+   
+}
+
+.col15{
+   
+    width: 15%;
+}
+
+
+.interno{
+    height: 300px;
+    border: 1px dashed black;
+}
 
 .bg-blu{
     background-color: #00018B;
+    
 }
 
 .pink-col{
@@ -125,4 +145,22 @@ header{
     background-color: #D3D3D3;
 }
 
- 
+.bg-black{
+    background-color: black;
+}
+
+.rosino{
+    background-color: #F08180;
+}
+
+.azzpaste{
+    background-color: #20B3AA;
+} 
+
+footer{
+    height: 1000px;
+}
+
+.mt-5{
+    margin: 6px auto 30px auto;
+}

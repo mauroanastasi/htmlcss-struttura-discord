@@ -95,11 +95,6 @@ header{
 
 }
 
-.manycol{
-    ;
-    height: 100%;
-}
-
 .col40{
     width: 40%;
    
@@ -110,6 +105,7 @@ header{
     width: 15%;
 }
 
+/* utility */
 
 .interno{
     height: 300px;
@@ -157,10 +153,25 @@ header{
     background-color: #20B3AA;
 } 
 
-footer{
-    height: 1000px;
-}
-
 .mt-5{
     margin: 6px auto 30px auto;
+}
+
+.footercol{
+    background-color: #85EFCD;
+    width: 100%;
+
+}
+
+.footercontent{
+
+}
+
+.sp{
+    justify-content: space-between;
+  
+}
+
+.pd{
+   padding: 10px;
 }

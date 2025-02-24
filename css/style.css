@@ -158,20 +158,28 @@ header{
 }
 
 .footercol{
-    background-color: #85EFCD;
-    width: 100%;
+    
 
 }
 
 .footercontent{
+    background-color: #85EFCD;
 
 }
 
 .sp{
     justify-content: space-between;
+    background-color: #85EFCD;
+
   
 }
 
 .pd{
    padding: 10px;
+}
+
+.logobut,.bottonebut{
+    padding: 5px;
+    border: 1px dashed black;
+    background-color: #CB9B9C;
 }
